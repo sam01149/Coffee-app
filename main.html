@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <script src="https://kit.fontawesome.com/39e72c482b.js" crossorigin="anonymous"></script>
+    <title>FILE</title>
+</head>
+
+ 
+<body>
+   <div class="container">
+        <nav class="container-nav">
+            <input type = "checkbox" id = "check">
+            <label for= "check"class = "checkbtn">
+                <i class="fa-solid fa-bars"></i>
+            </label>
+            <label class = "logo">BELIEVE</label>
+            <ul class="container-ul">
+                
+                <li class="list"><a href="main.html" class="active">Home</a></li>
+                <li class="list"><a href="#" class="link">Contact</a></li>
+                <li class="list"><a href="#" class="link">Feedback</a></li>
+                <li class="list"><a href="#" class="link">ABOUT</a></li>
+                <li class="list"><a href="#" class="link">Services</a></li>
+            </ul>
+        </nav>
+        
+   </div>
+   <div class="article">         
+        
+        <div class="h1-article">
+            <h1>HEYY</h1>
+            <br>
+            <h1>Lets drink coffe!!!</h1>
+        </div>  
+        <div class="slider1">
+            <div class="slider">
+            <div class="slides">
+                <input type="radio" name = "radio-btn" id="radio1">
+                <input type="radio" name = "radio-btn" id="radio2">
+                <input type="radio" name = "radio-btn" id="radio3">
+                <input type="radio" name = "radio-btn" id="radio4">
+                
+                <div class="slide first">
+                    <img  src="coffe.png" alt="">
+                </div>
+                <div class="slide">
+                    <img  src="coffe.png" alt="">
+                </div>
+                <div class="slide">
+                    <img  src="coffe.png" alt="">
+                </div>
+                <div class="slide">
+                    <img src="coffe.png" alt="">
+                </div>
+
+
+                <div class="navigation-auto">
+                    <div class="autobtn-1"></div>
+                    <div class="autobtn-2"></div>
+                    <div class="autobtn-3"></div>
+                    <div class="autobtn-4"></div>
+                
+                </div>
+            </div>
+                <div class="navigation-manual">
+                <label for="radio1"class = manual-btn></label>
+                <label for="radio2"class = manual-btn></label>
+                <label for="radio3"class = manual-btn></label>
+                <label for="radio4"class = manual-btn></label>
+
+                </div>
+            </div>
+            
+        </div>
+        <script type = "text/javascript">
+            var counter = 1;
+            setInterval(function(){
+                document.getElementById('radio' + counter).checked = true;
+                counter++;
+                if(counter > 4){
+                    counter = 1;
+                }
+            },4000);
+
+            
+        </script>
+           
+
+
+        <div class="coffe-menu">
+            <br>
+            <br><br><br><br>
+        </div>
+        <h2 align = center class="menu-list-h3">Here's our menu</h2>
+        <div align = center class="list">
+        <div class="menu-list">
+            <a class = "link-image"href = https://www.w3schools.com/css/tryit.asp?filename=trycss_ex_images_gallery_responsive>
+            <img src="coffe.png" width="250px" height="250px" alt=""></a>
+            <div class="desc"><p>Capuccino</p>
+            <br><p></p>$2.50</p><br></div>
+    
+            
+        </div>
+        <div class="menu-list">
+            <a class = "link-image"href = https://www.w3schools.com/css/tryit.asp?filename=trycss_ex_images_gallery_responsive>
+            <img src="coffe.png" width="250px" height="250px" alt=""></a>
+            <div class="desc"><p>Capuccino</p>
+            <br><p></p>$2.50</p><br></div>
+        
+        
+    
+            
+        </div>
+        <div class="menu-list">
+            <a class = "link-image"href = https://www.w3schools.com/css/tryit.asp?filename=trycss_ex_images_gallery_responsive>
+            <img src="coffe.png" width="250px" height="250px" alt=""></a>
+            <div class="desc"><p>Capuccino</p>
+            <br><p></p>$2.50</p><br></div>
+        </div>
+        <div class="menu-list">
+            <div class="menulist-more">
+                <i class="fas fa-arrow-right fa-3x" ></i></div>
+            <div class="desc"><p>More</p>
+            <br><br></div>
+        
+            </div>
+            </div>
+            <br><br><br><br>
+        
+<div class="footer">
+        <footer class="footer-article">
+            <div class="footer-container">
+                <div class="footer-row">
+                        <div class="footer-col">
+                            <h4>app</h4>
+                            <ul>
+                                <li>
+                                    <a class= "footer-link" href="#">about us</a>
+                                </li>
+                                <li>
+                                    <a class= "footer-link" href="#">our services</a>
+                                </li>
+                                <li>
+                                    <a class= "footer-link" href="#">privacy policy</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer-col">
+                            <h4>get help</h4>
+                            <ul>
+                                <li>
+                                    <a class= "footer-link" href="#">FAQ</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer-col">
+                            <h4>menu list</h4>
+                            <ul>
+                                <li>
+                                    <a class= "footer-link" href="#">food</a>
+                                </li>
+                                <li>
+                                    <a class= "footer-link" href="#">drink</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer-col">
+                            
+                            <div class="social-link">
+                                <h4>follow us</h4>
+                                    <a class= "footer" href="#"><i class = "fab fa-facebook-f"></i></a>
+                                    <a class= "footer" href="#"><i class = "fab fa-twitter"></i></a>
+                                    <a class= "footer" href="#"><i class = "fab fa-instagram"></i></a>
+                                    <a class= "footer" href="#"><i class = "fab fa-linkedin"></i></a>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    </div>
+        </footer>
+    </div>    
+</body>
+</html>
